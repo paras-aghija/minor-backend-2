@@ -1,7 +1,7 @@
 import grid from "gridfs-stream";
 import mongoose from "mongoose";
 
-const url = `http://localhost:3001`;
+const url = `https://minor-backend-2.herokuapp.com/`;
 
 let gfs;
 const conn = mongoose.connection;
